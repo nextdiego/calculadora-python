@@ -24,6 +24,18 @@ def potencia(a, b):
     """
     return a ** b
 
+def restoDivisao(a, b):
+    '''
+    Realiza a operação de resto de divisao entre dois numeros.
+    parâmetros:
+    a(int/float):primeiro número
+    b(int/float):segundo numero
+    retorna:
+    int/float: Resultado da soma
+    '''
+    return a % b
+    
+
 if __name__ == "__main__":
     print("Teste da função soma:")
     print(f"2 + 3 = {soma(2, 3)}") 
@@ -35,3 +47,4 @@ if __name__ == "__main__":
     print("vamo genteee (menos ana e seu tema branco)")
     print("Teste função potencialização:")
     print(f'5 elevando a 3 potencia: {potencia(5,3)}')
+    print(f"resto divisão {restoDivisao(5,2)}")
