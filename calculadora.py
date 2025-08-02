@@ -11,6 +11,19 @@ def soma(a, b):
     """
     return a + b
 
+def potencia(a, b):
+    """
+    Realiza a potencialização de um número a pela potencia b.
+    
+    Parâmetros:
+    a (int/float): Primeiro número
+    b (int/float): Segundo número (potencia)
+    
+    Retorna:
+    int/float: Resultado da potencialização
+    """
+    return a ** b
+
 if __name__ == "__main__":
     print("Teste da função soma:")
     print(f"2 + 3 = {soma(2, 3)}") 
@@ -20,3 +33,5 @@ if __name__ == "__main__":
     print(f'100 + 100 = {soma(100, 100)}')
     print(f' 3 + 10 = {soma(3,10)}') 
     print("vamo genteee (menos ana e seu tema branco)")
+    print("Teste função potencialização:")
+    print(f'5 elevando a 3 potencia: {potencia(5,3)}')
