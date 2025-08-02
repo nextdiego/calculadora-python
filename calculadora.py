@@ -11,17 +11,6 @@ def soma(a, b):
     """
     return a + b
 
-if __name__ == "__main__":
-    print("Teste da função soma:")
-    print(f"2 + 3 = {soma(2, 3)}") 
-    print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
-    print(f'2 + 2 = {soma(2, 2)}')
-    print('que galerinha massa, façam essa conta:')
-    print(f'100 + 100 = {soma(100, 100)}')
-    print(f' 3 + 10 = {soma(3,10)}') 
-    print("vamo genteee (menos ana e seu tema branco)")
-    print('estou sofrendo bullying!!!!!!!')
-
 def sub(a, b):
     """
     Realiza a subtração de dois números.
@@ -35,7 +24,16 @@ def sub(a, b):
     """
     return a - b
 
-if __name__ == '__main__':
+if __name__ == "__main__":
+    print("Teste da função soma:")
+    print(f"2 + 3 = {soma(2, 3)}") 
+    print(f"5.5 + 4.5 = {soma(5.5, 4.5)}") 
+    print(f'2 + 2 = {soma(2, 2)}')
+    print('que galerinha massa, façam essa conta:')
+    print(f'100 + 100 = {soma(100, 100)}')
+    print(f' 3 + 10 = {soma(3,10)}') 
+    print("vamo genteee (menos ana e seu tema branco)")
+    print('estou sofrendo bullying!!!!!!!')
     print("Teste da função subtração:")
     print(f"2 - 3 = {sub(2, 3)}") 
     print(f"5.5 - 4.5 = {sub(5.5, 4.5)}")
