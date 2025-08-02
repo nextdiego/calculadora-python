@@ -18,3 +18,5 @@ if __name__ == "__main__":
     print(f'2 + 2 = {soma(2, 2)}')
     print('que galerinha massa, façam essa conta:')
     print(f'100 + 100 = {soma(100, 100)}')
+    print(f' 3 + 10 = {soma(3,10)}') 
+    print("vamo genteee")
