@@ -23,6 +23,19 @@ def restoDivisao(a, b):
     return a % b
     
 
+def sub(a, b):
+    """
+    Realiza a subtração de dois números.
+    
+    Parâmetros:
+    a (int/float): Primeiro número
+    b (int/float): Segundo número
+    
+    Retorna:
+    int/float: Resultado da subtração
+    """
+    return a - b
+
 if __name__ == "__main__":
     print("Teste da função soma:")
     print(f"2 + 3 = {soma(2, 3)}") 
@@ -32,4 +45,9 @@ if __name__ == "__main__":
     print(f'100 + 100 = {soma(100, 100)}')
     print(f' 3 + 10 = {soma(3,10)}') 
     print("vamo genteee (menos ana e seu tema branco)")
+    print('estou sofrendo bullying!!!!!!!')
+    print("Teste da função subtração:")
+    print(f"2 - 3 = {sub(2, 3)}") 
+    print(f"5.5 - 4.5 = {sub(5.5, 4.5)}")
+    print(f'10 - 7 = {sub(10, 7)}')
     print(f"resto divisão {restoDivisao(5,2)}")
